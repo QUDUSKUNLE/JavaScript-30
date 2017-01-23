@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ReFlex | Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/js/java4.js"></script>
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <h3>
+        <center>Test your Time Response<br>Click on "Start" first, and wait until the background color changes. As soon as it changes, hit "stop!"
+
+        </center>
+    </h3>
+
+    <form name="response" id="form1" style="text-align:center">
+        <label>background color in:</label>
+        <center>
+            <select name="bgColorChange" class="form-control" style="width:25%; text-align:center">
+                <option selected>deeppink</option>
+                <option>aliceblue</option>
+                <option>crimson</option>
+                <option>darkkhaki</option>
+                <option>cadetblue</option>
+                <option>darkorchid</option>
+                <option>coral</option>
+                <option>chocolate</option>
+                <option>mediumslateblue</option>
+                <option>tomato</option>
+                <option>darkslategray</option>
+                <option>limegreen</option>
+                <option>cornflowerblue</option>
+                <option>darkolivegreen</option>
+            </select>
+        </center><br>
+        <input type="button" class="btn btn-success" value="start" onclick="startit()">
+        <input type="button" class="btn btn-danger" value="stop" onclick="stopTest()">
+    </form>
+
+</body>
+
+</html>

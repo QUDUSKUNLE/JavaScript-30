@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+    <script>
+        function uphilltext(text) {
+            var temptext = text.toUpperCase()
+            var size = 1
+                //go through the text, letter by letter
+            for (i = 0; i < temptext.length; i++) {
+                document.write(temptext.charAt(i).fontsize(size).bold());
+                //document.getElementById("demo").innerHTML = temptext.charAt(i).fontsize(size).bold();
+                if (size < 7)
+                    size++;
+                else {
+                    size = 1
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        uphilltext("Welcome to our site!")
+    </script>
+    <div id="demo"></div>
+</body>
+
+</html>

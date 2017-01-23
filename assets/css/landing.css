@@ -1,0 +1,15 @@
+/**/
+
+html {
+    background: #098ded url(http://unsplash.it/1500/1000?image=881&blur=50);
+    background-size: cover;
+    font-family: "helvetiac neue";
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+#demo {
+    font-size: 25px;
+    padding-top: 20px;
+}
